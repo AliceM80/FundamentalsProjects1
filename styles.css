@@ -2,12 +2,6 @@ body{
     font-family: 'sans-serif';
 }
 
-.header {
-    height: 620px;
-    background-image: url("../img/header-back11.jpg");
-    background-size: cover;
-    background-position: 25% 75%;
-}
 
 .header-navbar-links {
     color:black;
@@ -47,12 +41,14 @@ body{
 }
 
 .slogan-top{
+    text-align: center;
     font-size: 170%;
     font-weight: bold;
 
 }
 
 .slogan-bottom{
+text-align: center;
     font-size:150%;
     font-weight:lighter;
     
