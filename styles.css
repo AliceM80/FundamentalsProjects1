@@ -1,0 +1,369 @@
+body{
+    font-family: 'mulish', 'sans-serif';
+}
+
+.header {
+    height: 620px;
+    background-image: url("../img/header-back11.jpg");
+    background-size: cover;
+    background-position: 25% 75%;
+}
+
+.header-navbar-links {
+    color:black;
+    float: right;
+    margin-right:20px;
+    margin-top: 25px;
+
+} 
+
+.header-navbar-links li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.header-brand-wrapper {
+    margin-top:5px;
+    margin-left:10px;
+    float: left;
+    
+}
+
+.header-brand {
+    color:black;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 150%;
+    display: block;
+    margin-top: 8.4%;
+}
+
+.slogan {
+    padding-top: 40px;
+    text-align: center;
+    text-shadow: 0px 0px 2px white;
+    
+}
+
+.slogan-top{
+    font-size: 170%;
+    font-weight: bold;
+
+}
+
+.slogan-bottom{
+    font-size:150%;
+    font-weight:lighter;
+    
+}
+
+.slogan-button{
+    margin-top: 30px;
+    text-shadow: 0px 0px 2 px white;
+    font-size: 80%;
+}
+
+.slogan-button:hover{
+    text-shadow: 0px 0px 2 px white;
+}
+
+.service{
+    padding-top: 100px;
+    padding-bottom: 75px;
+
+}
+
+.service-title{
+    color: RGB (117,117,117);
+    font-weight:lighter;
+}
+
+.service p {
+    color: RGB (117,117,117);
+}
+
+.service-icon {
+    color: grey;
+    font-size: 1000%;
+    text-align: center;
+    margin-top: -5%;
+    margin-bottom: -35%;
+}
+
+.service-grey {
+    background-color:rgb(240, 240, 240);
+}
+
+.features {
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+.feature-icon {
+    width: 70px;
+    height: 60px;
+    padding-top:10px;
+    background-color: black;
+    border-radius: 35px;
+    color: white;
+    text-align:center;
+    font-size:35px;
+    float:left;
+}
+
+.feature-text{
+    margin-left:90px
+}
+
+.feature-text h5 {
+    margin-bottom: 6px;
+    font-size: 150%;
+    color: RGB (30,30,30);
+
+}
+
+.feature-text p{
+color: RGB (117,117,117)
+}
+
+.clients{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color:rgb(240, 240, 240);  
+}
+
+.clients-heading {
+    font-weight: lighter;
+    margin-bottom:0px;
+    text-align: center;  
+}
+
+.clients-subheading {
+    text-align: center; 
+}
+
+.client-image,
+.team-image {
+    width: 100%;
+    border-radius: 10000px;
+    border:5px solid rgb(255, 255, 255);
+}
+
+.clients-quote {
+    border:2px solid rgb(235, 235, 235);
+    background-color: rgb(255, 255, 255);
+    padding-left: 75px;
+    padding-top:45px;
+    padding-bottom: 65px;
+    padding-right: 75px;
+    border-radius: 3px;
+    font-size: 120%;
+    font-weight:lighter;
+    font-style:italic;
+    position: relative;
+}
+
+.clients-quote p {
+    margin-bottom: 5px;
+}
+
+.client-quote-author {
+    font-style: normal;
+    font-size: 70%;
+    color:rgb(119, 147, 197);
+}
+
+.clients-quote::before,
+.clients-quote::after {
+    content:"";
+    display:block;
+    width:0px;
+    height:0px;
+    position: absolute;
+    top:50%;
+
+}
+.clients-quote::before {
+       left:-30px;
+    margin-top:-15px;
+    border:15px solid transparent;
+    border-right:15px solid rgb(235, 235, 235); 
+}
+
+.clients-quote::after{
+        left:-26px;
+    margin-top:-13px;
+    border:13px solid transparent;
+    border-right:13px solid rgb(255, 255, 255);
+}
+
+.clients-quote {
+    border:2px solid rgb(235, 235, 235);
+    background-color: rgb(255, 255, 255);
+    padding-left: 75px;
+    padding-top:45px;
+    padding-bottom: 65px;
+    padding-right: 75px;
+    border-radius: 3px;
+    font-size: 120%;
+    font-weight:lighter;
+    font-style:italic;
+    position: relative;
+}
+
+.clients-quote2 {
+    border:2px solid rgb(235, 235, 235);
+    background-color: rgb(255, 255, 255);
+    padding-left: 75px;
+    padding-top:45px;
+    padding-bottom: 23px;
+    padding-right: 75px;
+    border-radius: 3px;
+    font-size: 120%;
+    font-weight:lighter;
+    font-style:italic;
+    position: relative;
+}
+
+.clients-quote2::before,
+.clients-quote2::after {
+    content:"";
+    display:block;
+    width:0px;
+    height:0px;
+    position: absolute;
+    top:50%;
+}
+
+.clients-quote2::before {
+    right:-30px;
+    margin-top:-15px;
+    border:15px solid transparent;
+    border-left:15px solid rgb(235, 235, 235); 
+}
+
+.clients-quote2::after{
+        right:-26px;
+    margin-top:-13px;
+    border:13px solid transparent;
+    border-left:13px solid rgb(255, 255, 255);
+}
+
+.team {
+    padding-top:100px;
+    padding-bottom: 100px;
+    background-color:rgb(29, 29, 29);
+    color:rgb(255, 255, 255);
+}
+
+.team-heading {
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom:0px;
+}
+
+.team-subheading {
+    text-align: center;
+    color:grey;
+    margin-bottom: 50px;
+}
+
+.team-image {
+    max-width: 280px;
+}
+
+.team-image-container {
+text-align: center;
+}
+
+.team-name {
+    margin-top:10px;
+    margin-bottom:0px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.team-name-desc {
+    text-align:center;
+    color:grey;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+
+.team-icons {
+    text-align: center;
+}
+
+.team-icon {
+    color:rgb(255, 255, 255);
+    border:3px solid rgb(255, 255, 255);
+    width:25px;
+    height:25px;
+    border-radius:100000px;
+    display: inline-block;
+    text-align: center;
+}
+
+.team-icon .fa {
+margin-top: 5px;
+}
+
+.team-subtitle {
+    color:grey;
+    text-align:center;
+    margin-top:40px;
+}
+
+.contact {
+    background-color: rgb(118, 143, 197);
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.contact-welcome{
+    color:rgb(233, 230, 230);
+    font-weight: lighter;
+    margin-bottom:7px;
+}
+
+.contact-subheading{
+    color:rgb(233, 230, 230);
+    font-weight:lighter;
+}
+
+.contact-methods {
+    color:rgb(255, 255, 255);
+    list-style-type: none;
+}
+
+.contact-methods li{
+    width:50%;
+    float:left;
+    font-weight:lighter;
+}
+
+.contact-methods .fa {
+    font-size: 110%;
+}
+
+.contact-icon {
+    display:inline-block;
+    width:25px;
+    text-align:center;
+    height:30px;
+}
+
+.contact-input {
+    width:100%;
+    margin-bottom: 28px;
+    font-size: smaller;
+}
+
+.contact-message {
+    height: 140px;
+}
+
+input.contact-submit[type="submit"] {
+    background-color: rgb(255, 255, 255);
+}
