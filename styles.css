@@ -196,17 +196,3 @@ margin-top: 5px;
     text-align:center;
     height:30px;
 }
-
-.contact-input {
-    width:100%;
-    margin-bottom: 28px;
-    font-size: smaller;
-}
-
-.contact-message {
-    height: 140px;
-}
-
-input.contact-submit[type="submit"] {
-    background-color: rgb(255, 255, 255);
-}
