@@ -54,16 +54,21 @@ public class TheWarehouseManager {
         }
     }
 
-    /**
-     * Confirm an action
-     *
-     * @return action
-     */
-    public boolean confirm() {
-        System.out.println("Do you want to perform another action?\n"
-                + "Type 'yes' to continue, and 'no' to quit.");
-        return reader.nextLine().charAt(0) == 'y';
+  /**
+   * Confirm an action
+   *
+   * @return action
+   */
+  public boolean confirm(String message) {
+    System.out.println(message);
+    char choise = 'n';
+    choise = reader.nextLine().charAt(0);
+    if (choise == 'y') {
+      return true;
+    } else {
+      return false;
     }
+      }
 
     /** End the application */
     public void quit() {
@@ -88,12 +93,12 @@ public class TheWarehouseManager {
 
     private void listItemsByWarehouse() {
         System.out.println("Items in Warehouse 1: ");
-        listItems(WAREHOUSE1);
+        listItems(Repository.WAREHOUSE1);
 
         System.out.println("\n");
 
         System.out.println("Items in Warehouse 2: ");
-        listItems(WAREHOUSE2);
+        listItems(Repository.WAREHOUSE2);
     }
 
     private void listItems(String[] warehouse) {
@@ -145,7 +150,9 @@ public class TheWarehouseManager {
      */
     private String askItemToOrder() {
         System.out.println("What is the name of the item?");
-        return reader.nextLine();
+        String itemSelect = reader.nextLine();
+    System.out.println(itemSelect);
+        return itemSelect;
     }
 
     /**
@@ -155,11 +162,11 @@ public class TheWarehouseManager {
      * @return integer array, total count, count in Warehouse 1, count in Warehouse 2
      */
     private int[] getAvailableAmounts(String itemName) {
-        int amountw1 = find(itemName, WAREHOUSE1);
-        int amountw2 = find(itemName, WAREHOUSE2);
-        int total = amountw1 + amountw2;
+        int amount1 = find(itemName, WAREHOUSE1);
+        int amount2 = find(itemName, WAREHOUSE2);
+        int total = amount1 + amount2;
 
-        return new int[] {total, amountw1, amountw2};
+        return new int[] {total, amount1, amount2};
     }
 
     /**

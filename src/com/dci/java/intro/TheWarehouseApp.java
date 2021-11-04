@@ -18,11 +18,11 @@ public class TheWarehouseApp {
 
         // Get the user's choice of action and perform action
         do {
-            int choice = theManager.getUsersChoice();
-            theManager.performAction(choice);
+            int choise = theManager.getUsersChoice();
+            theManager.performAction(choise);
 
             // confirm to do more
-            if (!theManager.confirm()) {
+            if (!theManager.confirm("Do you want to make another action? (y/n)")) {
                 theManager.quit();
 
             }
