@@ -1,0 +1,191 @@
+body{
+    font-family: 'verdana, Geneva, Tahoma, sans-serif';
+}
+
+#nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    background-color: #A5AAA3;
+    font-size: 1.25em;
+}
+
+#nav a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+  border: 1px white;
+}
+
+#nav a:hover {
+  background: #705E78;
+}
+
+.slogan {
+    padding-top: 40px;
+    text-align: center;
+    text-shadow: 0px 0px 2px white;
+    
+}
+
+.slogan-top{
+    text-align: center;
+    font-size: 170%;
+    font-weight: bold;
+
+}
+
+.slogan-bottom{
+text-align: center;
+    font-size:150%;
+    font-weight:lighter;
+    
+}
+
+.slogan-button{
+    margin-top: 30px;
+    text-shadow: 0px 0px 2 px white;
+    font-size: 80%;
+}
+
+.slogan-button:hover{
+    text-shadow: 0px 0px 2 px white;
+}
+
+.service{
+    padding-top: 100px;
+    padding-bottom: 75px;
+   background-color:rgb(240, 240, 240);
+
+}
+
+.service-title{
+    color: RGB (117,117,117);
+    font-weight:lighter;
+}
+
+.service p {
+    color: RGB (117,117,117);
+}
+
+.service-icon {
+    color: grey;
+    font-size: 1000%;
+    text-align: center;
+    margin-top: -5%;
+    margin-bottom: -35%;
+}
+
+
+.service-grey {
+    background-color:rgb(240, 240, 240);
+}
+
+
+.team {
+    padding-top:100px;
+    padding-bottom: 100px;
+    background-color:rgb(29, 29, 29);
+    color:rgb(255, 255, 255);
+}
+
+.team-heading {
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom:0px;
+}
+
+.team-subheading {
+    text-align: center;
+    color:grey;
+    margin-bottom: 50px;
+}
+
+.team-image {
+    max-width: 280px;
+}
+
+.team-image-container {
+text-align: center;
+}
+
+.team-name {
+    margin-top:10px;
+    margin-bottom:0px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.team-name-desc {
+    text-align:center;
+    color:grey;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+
+.team-icons {
+    text-align: center;
+}
+
+.team-icon {
+    color:rgb(255, 255, 255);
+    border:3px solid rgb(255, 255, 255);
+    width:25px;
+    height:25px;
+    border-radius:100000px;
+    display: inline-block;
+    text-align: center;
+}
+
+.team-icon .fa {
+margin-top: 5px;
+}
+
+.team-subtitle {
+    color:grey;
+    text-align:center;
+    margin-top:40px;
+}
+
+.contact {
+    background-color: rgb(118, 143, 197);
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.contact-welcome{
+    color:rgb(233, 230, 230);
+    font-weight: lighter;
+    margin-bottom:7px;
+}
+
+.contact-subheading{
+    color:rgb(233, 230, 230);
+    font-weight:lighter;
+}
+
+.contact-methods {
+    color:rgb(255, 255, 255);
+    list-style-type: none;
+}
+
+.contact-methods li{
+    width:50%;
+    float:left;
+    font-weight:lighter;
+}
+
+.contact-methods .fa {
+    font-size: 110%;
+}
+
+.contact-icon {
+    display:inline-block;
+    width:25px;
+    text-align:center;
+    height:30px;
+}
